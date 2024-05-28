@@ -14,20 +14,20 @@ I'm currently working on this Journal application.Below is the description about
 - [x] Redirect user to the home page after successful login
 
 ### Main Features
-- [x] Create home page with an introduction
+- [ ] Create home page with an introduction
 - [x] Implement "Write a Diary" form with fields for title, content, cover image, time, and theme color
 - [x] Save diary entries to the database
 - [x] Create dashboard to display saved diary entries
-- [x] Implement functionality to read full diary entries from the dashboard
+- [ ] Implement functionality to read full diary entries from the dashboard
 
 ### Sidebar Navigation
 - [x] Add navigation options for Home, Write a Diary, Dashboard, and Logout
 
 ### User Experience Enhancements
 - [x] Integrate React Feather Icons for improved UI
-- [x] Implement FAQ section with an accordion for common questions and answers
+- [] Implement FAQ section with an accordion for common questions and answers
 
-### Additional Features and Enhancements
+### Additional Features and Enhancements(IF NEEDED ****)
 - [ ] Add search functionality to find specific diary entries
 - [ ] Implement user profile management (update username, password, etc.)
 - [ ] Add functionality to edit and delete diary entries
