@@ -1,0 +1,12 @@
+.dashboard {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+}
+.dashboard-body {
+  width: 100%;
+}
+
+/*# sourceMappingURL=dashboard.css.map */
