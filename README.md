@@ -14,7 +14,7 @@ I'm currently working on this Journal application.Below is the description about
 - [x] Redirect user to the home page after successful login
 
 ### Main Features
-- [ ] Create home page with an introduction
+- [x] Create home page with an introduction
 - [x] Implement "Write a Diary" form with fields for title, content, cover image, time, and theme color
 - [x] Save diary entries to the database
 - [x] Create dashboard to display saved diary entries
