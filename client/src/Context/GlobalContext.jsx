@@ -10,14 +10,17 @@ export const GlobalProvider = ({ children }) => {
 		JSON.parse(isLocalAuthenticated)
 	);
 	const [isLoading, setIsLoading] = useState(true);
+
 	const axiosInstance = axios.create({
-		baseURL: "https://journal-mern-3.onrender.com/",
+		baseURL: "https://journal-mern-3.onrender.com/", // Replace with your backend URL
 		headers: {
 			"x-auth-token": localStorage.getItem("token"),
 			"Content-Type": "application/json",
 		},
 	});
+
 	const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
+
 	return (
 		<GlobalContext.Provider
 			value={{
