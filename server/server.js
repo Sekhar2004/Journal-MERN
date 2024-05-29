@@ -13,10 +13,10 @@ const app = express();
 // Database connection
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    if (!process.env.MONGO_CONNECTION_STRING) {
+      throw new Error("MONGO_CONNECTION_STRING is not defined in the environment variables");
+    }
+    await mongoose.connect(process.env.MONGO_CONNECTION_STRING);
     console.log("Connected to MongoDB successfully");
   } catch (err) {
     console.error("Error connecting to MongoDB:", err.message);
@@ -26,13 +26,11 @@ const connectDB = async () => {
 connectDB();
 
 // Middleware
-app.use(cors(
-  {
-    origin : "https://journal-mern-frontend.vercel.app/",
-    methods : ["GET","POST","PUT","DELETE"],
-    credentials : true
-  }
-));
+app.use(cors({
+  origin: "https://journal-mern-frontend.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+}));
 
 app.use(express.json());
 
