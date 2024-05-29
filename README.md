@@ -28,7 +28,7 @@ I'm currently working on this Journal application.Below is the description about
 - [] Implement FAQ section with an accordion for common questions and answers
 
 ### Additional Features and Enhancements(IF NEEDED ****)
-- [ ] Add search functionality to find specific diary entries
+- [x] Add search functionality to find specific diary entries
 - [ ] Implement user profile management (update username, password, etc.)
 - [ ] Add functionality to edit and delete diary entries
 - [ ] Enhance form validation for the diary entry form
