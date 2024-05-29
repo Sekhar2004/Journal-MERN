@@ -11,7 +11,7 @@ export const GlobalProvider = ({ children }) => {
 	);
 	const [isLoading, setIsLoading] = useState(true);
 	const axiosInstance = axios.create({
-		baseURL: "https://journal-mern-1.onrender.com/",
+		baseURL: "https://journal-mern-3.onrender.com/",
 		headers: {
 			"x-auth-token": localStorage.getItem("token"),
 			"Content-Type": "application/json",
