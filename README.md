@@ -25,7 +25,7 @@ I'm currently working on this Journal application.Below is the description about
 
 ### User Experience Enhancements
 - [x] Integrate React Feather Icons for improved UI
-- [] Implement FAQ section with an accordion for common questions and answers
+- [x] Implement FAQ section with an accordion for common questions and answers
 
 ### Additional Features and Enhancements(IF NEEDED ****)
 - [x] Add search functionality to find specific diary entries
